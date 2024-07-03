@@ -1,0 +1,28 @@
+<!-- Let us take an example for 3d click(shadow) -->
+<style>
+    .shadow-button{
+        background-color: rgb(15, 123, 15);
+        border:none;
+        padding-left:10px ;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        font-weight: bold;
+        transition: background-color 2s,opacity 2s;
+    }
+    .shadow-button:hover{
+        background-color: rgb(55, 207, 55);
+    }
+    .shadow-button:active{
+        opacity: 0.15s;
+        padding-bottom: 12px;
+        padding-right: 12px;
+        padding-top: 12px;
+        padding-left: 12px;
+        box-shadow: 5px 5px 10px rgba(21, 6, 6, 0.15);
+    }
+</style>
+<button class="shadow-button">
+    Shadow
+</button>
