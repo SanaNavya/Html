@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dog Store</title>
+        <style>
+            .cat1{
+                display: block;
+                width: 80px;
+                height: 100px;
+                object-fit: contain;
+                padding-top: 8px;
+            }
+            .name{
+                font-size: 15px;
+                font-weight: bold;
+                margin-left: 20px;
+                display: block;
+                line-height: 1px;
+            }
+            .cart{
+                display:inline-block;
+                margin-left: 8px;
+                width: 80px;
+                object-fit: contain;
+                box-shadow: 0px 2px 5px rgba(0,0,0,0.50);
+            }
+            .addto {
+                width: 50px;
+                font-size: 8px;
+                padding-left: 8px;
+                margin-left: 12px;
+                display: inline-block;
+                vertical-align: top;
+                margin-bottom: 10px;
+                border: none;
+                background: rgb(234, 238, 25);
+                border-radius: 2px;
+                box-shadow: 0px 1px 4px rgba(0,0,0,0.20);
+            }
+            .text{
+                width: 40px;
+                font-size: 8px;
+                padding-left: 20px;
+                line-height: 5px;
+            }
+            .addto:hover{
+                cursor: pointer;
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cart">
+            <div>
+                <img class="cat1" src="Thumbnails/thumbnail-2.webp">
+            </div>
+            <div>
+                <p class="name"> Ruby </p>
+                <p class="text">
+                    -68% 99$
+                </p>
+                    <button class="addto">
+                        Add to Cart
+                </button>
+            </div>
+    </div>
+    <div class="cart">
+        <div>
+            <img class="cat1" src="Thumbnails/thumbnail-3.jpeg">
+        </div>
+        <div>
+            <p class="name"> Oliver </p>
+            <p class="text">
+                -68% 192$
+            </p>
+            <button class="addto">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+    </body>
+</html>
